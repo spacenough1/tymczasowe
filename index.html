@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head><title>Nagrywarka Ultra HD 2005 by Kamil</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <img src="Nagrywarka-2005-6-5-2025.png" alt="logo" width="512">
+        <button id="recordButton">Nagraj</button>
+        <button id="stopButton">Zatrzymaj</button>
+        <button id="saveButton">Zapisz</button>
+
+        <div id="recordingStatus" style="display: none;">
+            <span class="dot"></span>
+            <span id="timer">00:00</span>
+        </div>
+
+        <audio id="audioPlayback" controls style="display:none;"></audio>
+        <script src="renderer.js"></script>
+    </body>
+</html>
